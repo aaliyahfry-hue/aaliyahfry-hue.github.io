@@ -35,6 +35,7 @@ createPlatform(850, 700, 50, 100, "red");
 createPlatform(1000, 700, 50, 100, "black");
 createPlatform(600, 700, 50, 100, "red");
 createPlatform(400, 700, 50, 100, "black");
+createPlatform(200, 700, 50, 100, "red");
  // bright green for a finished platform
 
 
