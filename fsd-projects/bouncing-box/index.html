@@ -51,7 +51,7 @@
         // Every 50 milliseconds, call the update Function (see below)
         setInterval(update, 50);
 
-        // Every time the box is clicked, call the handleBoxClick Function (see below)
+        // Every time the box is clicked, call the handleBoxClic k Function (see below)
         box.on("click", handleBoxClick);
 
         // moves the Box to a new position on the screen along the X-Axis
@@ -69,7 +69,7 @@
         //////////////////////////////////////////////////////////////////
 
         // TODO 2 - Variable declarations
-
+var positionX = 0
 
 
 
@@ -79,7 +79,7 @@
          * Each time it is called, it should move the Box to a new location.
          * If the box drifts off the screen, turn it around!
          */
-        function update() {
+        function update() { moveBoxTo(boardWidth); // Moves box to right edge
 
         
 
